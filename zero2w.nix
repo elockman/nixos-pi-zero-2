@@ -148,7 +148,7 @@
     wheelNeedsPassword = false;
   };
   # ! Be sure to change the autologinUser.
-  services.getty.autologinUser = "admin";
+  # services.getty.autologinUser = "admin";
 
   # disable zfs and cifs to prevent samba error when cross-compiling
   boot.supportedFilesystems.zfs = lib.mkForce false;
