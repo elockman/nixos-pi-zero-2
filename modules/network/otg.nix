@@ -5,14 +5,14 @@ let
     "serial"       = { module = "g_serial"; config = "USB_G_SERIAL"; };
     "ether"        = { module = "g_ether"; config = "USB_ETH"; };
     "mass_storage" = { module = "g_mass_storage"; config = "USB_MASS_STORAGE"; };
-    "midi"         = { module = "g_midi"; config = "USB_MIDI_GADGET"; };
-    "audio"        = { module = "g_audio"; config = "USB_AUDIO"; };
+    # "midi"         = { module = "g_midi"; config = "USB_MIDI_GADGET"; };
+    # "audio"        = { module = "g_audio"; config = "USB_AUDIO"; };
     "hid"          = { module = "g_hid"; config = "USB_G_HID"; };
     "acm_ms"       = { module = "g_acm_ms"; config = "USB_G_ACM_MS"; };
     "cdc"          = { module = "g_cdc"; config = "USB_CDC_COMPOSITE"; };
-    "webcam"       = { module = "g_webcam"; config = "USB_G_WEBCAM"; };
-    "printer"      = { module = "g_printer"; config = "USB_G_PRINTER"; };
-    "zero"         = { module = "g_zero"; config = "USB_ZERO"; };
+    # "webcam"       = { module = "g_webcam"; config = "USB_G_WEBCAM"; };
+    # "printer"      = { module = "g_printer"; config = "USB_G_PRINTER"; };
+    # "zero"         = { module = "g_zero"; config = "USB_ZERO"; };
     # "multi"        = { module = ""; config = ""; }; # TODO:
   };
 in
